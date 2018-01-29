@@ -1,0 +1,43 @@
+{
+  "name": "react-bulma-chartjs",
+  "version": "v0.0.3",
+  "description": "Chartjs component is based on chart.js for React",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuxiangwa/react-chartjs.git"
+  },
+  "keywords": [
+    "react",
+    "chart",
+    "chartjs",
+    "chart.js",
+    "react-component",
+    "react-bulma",
+    "react-bulma-chartjs"
+  ],
+  "author": "wuxiangwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuxiangwa/react-chartjs/issues"
+  },
+  "homepage": "https://github.com/wuxiangwa/react-chartjs#readme",
+  "dependencies": {
+    "chart.js": "^2.7.1",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1"
+  }
+}
