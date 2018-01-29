@@ -10,7 +10,7 @@ npm install react-bulma-chartjs
 ## Usage
 
 ```jsx
-import { BackToTop, Jump } from 'react-bulma-chartjs';
+import Chart from 'react-bulma-chartjs';
 
 const data =  {
       labels: [
@@ -35,10 +35,10 @@ const options = {
 const App => () =>
   <div>
       // doughnut
-      <Chat type={'doughnut'} data={data} options={options}/>
+      <Chart type={'doughnut'} data={data} options={options}/>
 
       // pie
-        <Chat type={'pie'} data={data} options={options}/>
+        <Chart type={'pie'} data={data} options={options}/>
   </div>
 
 export default App
