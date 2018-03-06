@@ -56,8 +56,7 @@ class index extends React.Component {
   }
 
   onRenderChart () {
-    if (this.chart)
-    this.chart.destroy()
+    if (this.chart) this.chart.destroy();
     if (!types.includes(this.props.type)) return
     this.chart = new Chart(this.refs.canvas.getContext('2d'), {
       ...this.props
