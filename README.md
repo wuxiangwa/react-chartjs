@@ -4,6 +4,7 @@
 ## Installation
 
 ```bash
+
 npm install react-bulma-chartjs --save
 ```
 
